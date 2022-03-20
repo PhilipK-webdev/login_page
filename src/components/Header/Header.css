@@ -1,0 +1,15 @@
+.header{
+    display: flex;
+    height: 14vh;
+    justify-content: center;
+    background: rgba(196, 199, 204, 0.6);
+}
+
+.header_logo{
+    margin-bottom: auto;
+    margin-top: auto;
+}
+.image_logo{
+    width: 18vw;
+    height: 9vh;
+}

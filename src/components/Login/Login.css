@@ -1,0 +1,24 @@
+.container{
+    margin-top: 10vh;
+    margin-bottom: 20;
+    margin-left: auto;
+    width: 70vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    margin-right: auto;
+    flex-direction: column;
+}
+
+.error_form{
+    /* border:3px solid white; */
+    width: 40%;
+    white-space: nowrap;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 2vw;
+    border-radius: 1.5vh;
+    background-color:rgb(228, 53, 134);
+    color:white;
+    padding: 5px;
+}

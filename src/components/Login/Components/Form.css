@@ -1,0 +1,73 @@
+.form{
+    width: inherit;
+    height: 35vh;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.form_body{
+    display: flex;
+    flex-direction: column;
+    padding-top: 5vh;
+}
+.input_username{
+    width: 28vw;
+    height: 10vh;
+    background: #EFF0F1;
+    border: 3px solid #000000;
+    box-sizing: border-box;
+    border-radius: 2.5vh;
+    margin-left: auto;
+    margin-right: auto;
+    font-size:2.2vw;
+    margin-bottom: 2vh;
+    cursor: pointer;
+    padding-bottom:10px;
+}
+
+.input_password{
+padding-bottom:10px;
+width: 28vw;
+height: 10vh;
+margin-left: auto;
+margin-right: auto;
+border-radius: 2.5vh;
+background: #000000;
+border: 3px solid #C4C7CC;
+box-sizing: border-box;
+border-radius: 2.5vh;
+font-size:2.2vw;
+cursor: pointer;
+color: white;
+}
+
+.submit{
+    margin-top: 2vh;
+    height: 6vh;
+    width: 14vw;
+    background: #000000;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-size:1.5vw;
+}
+
+.submit:hover{
+    color:red;
+    background-image: url('../../../assets/background.png');
+    background-color: white;
+    color:black;
+    cursor: pointer;
+}
+.input_username::placeholder{
+    padding-right: 10px;
+    font-weight: 400;
+    font-size: 1.5vw;
+}
+.input_password::placeholder{
+    padding-right: 10px;
+    color:#DE0761;
+    font-weight: 400;
+    font-size: 1.5vw;
+}
